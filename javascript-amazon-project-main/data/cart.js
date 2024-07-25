@@ -23,3 +23,11 @@
                  });
           } 
   }
+
+  function removeFromCart(productId){
+    const newCart =[];
+
+    cart.forEach(()=>{
+        
+    })
+  }
