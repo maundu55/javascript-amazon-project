@@ -25,7 +25,7 @@
               }
           });
           if(matchingItem){
-              matchingItem.quantity++;
+              matchingItem.quantity += 1;
           }else{
               cart.push({
                   productId:productId,
@@ -44,7 +44,7 @@
         if(cartItem.productId !== productId){
             newCart.push(cartItem);
         }
-    })
+    });
     cart = newCart;
     saveToStorage();
   }
